@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet");
+
+html{scroll-behavior: smooth;}
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "source code pro",Sixtyfour convergence, sans-serif;
+}
+
+:root{
+    --bs-dark-primary:#cf6004;
+--bs-main-color:#fcfdff;
+--bs-primary: #440a00;
+--bs-secondary:#fc1947:
+--bs-supporting-color: #faac02;
+--bs-grey-color:#9c9a97;
+
+}
+
+.bg-color{background-color: var( --bs-dark-primary);
+;}
+.navbar, .navbar-brand, .nav-link,  .dropdown-menu, .dropdown-item  {
+    font-family: 'Source Code Pro';
+    color: white !important;
+}
+
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: 0.01rem;
+    font-family: 'Source Code Pro';
+}
+.common-title{ 
+    margin-bottom: 4.2rem;
+
+}
+
+
+h1, p{font-family:"source code pro";
+    color: white}
+
+
+    .icon-span {
+        transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition effects */
+        cursor: pointer; /* Change cursor to pointer for hand effect */
+    }
+
+    .icon-span:hover {
+        transform: scale(2.1); /* Scale up on hover */
+    }
+
+    .icon-span:hover .fa-instagram {
+        color: #1b161a; /* Change Instagram color on hover */
+    }
+
+    .icon-span:hover .fa-facebook {
+        color: #131516; /* Change Facebook color on hover */
+    }
+
+    .icon-span:hover .fa-envelope {
+        color: #181313; /* Change Envelope color on hover */
+    }
+
+
+.hero-section .container
+{display: grid;
+place-content: center;
+height: inherit;}
+
+.bg-main{height: 80vh;
+position: relative;}
+
+.custom-shape-divider-bottom-1728395273 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1728395273 svg {
+    position: relative;
+    display: block;
+    width: calc(101% + 1.3px);
+    height: 81px;
+}
+
+.custom-shape-divider-bottom-1728395273 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.about-section{
+    padding: 8rem 0 5rem 0;
+}
+.reachme-section{
+    padding: 10rem 0 5rem 0;
+    height: 100vh; 
+
+}
+
+
+    .text-purple {
+        color: purple;
+        text-decoration: underline;vic
+    }
+
+    .icon-span{ width: 4rem; height: 4rem;}
+
+    .card-box:hover{
+        background-color: #f19e5b;
+    }
+
+    .custom-shape-divider-top-1728457608 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1728457608 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 87px;
+    }
+    
+    .custom-shape-divider-top-1728457608 .shape-fill {
+        fill: #FFFFFF;
+    }
+    .reachme-section {
+        background-image: linear-gradient(rgba(167, 113, 13, 0.7), rgba(255, 94, 0, 0.7)), url('contct.jfif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 6rem 0;
+        overflow: hidden;
+        color: #fff; }
+
+
+        .hover-move {
+            transition: transform 0.3s ease; /* Smooth transition */
+        }
+        
+        .hover-move:hover {
+            transform: translateX(10px); /* Move text 10px to the right */
+            transform: scale(2.1);
+        }
+     
+        
